@@ -6,7 +6,7 @@
 <h4 align="center"> a simulation of a real-world comment section where different users can simultaneously type, read and post comments </h4>
 
 ### About
-The comment section is built using various technologies. The front-end section is made using HTML, Tailwind CSS, and JavaScript. It also includes plain CSS animations customized with Tailwind. The back-end is constructed using Node.js, and Express.js. Real-time communication is achieved with the help of Socket.IO. All the comments are saved and synchronized using Mongo DB.
+The **comment section** is built using various technologies. The front-end section is made using **HTML, Tailwind CSS, and JavaScript**. It also includes plain **CSS animations** customized with Tailwind. The back-end is constructed using **Node.js, and Express.js**. Real-time communication is achieved with the help of **Socket.IO**. All the comments are **saved and synchronized** using **Mongo DB**.
 
 ### Technologies
 
