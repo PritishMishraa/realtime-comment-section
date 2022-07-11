@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="./public/img/working-screencapture.png" />
+</p>
 
 <h1 align="center"> realtime-comment-section </h1>
 <h4 align="center"> a simulation of a real-world comment section where different users can simultaneously type, read and post comments </h4>
