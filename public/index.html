@@ -14,18 +14,12 @@
     <div class="flex flex-col items-center mt-10 justify-center w-screen">
         <div class="flex flex-col w-3/5">
             <h1 class="m-2 self-center text-5xl text-white font-bold">Realtime Comment Section</h1>
-            <p class="m-2 text-white text-base font-light">Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.
-                Veniam ullam reiciendis et. Eius rerum enim beatae! Eius beatae esse distinctio eos neque explicabo
-                minus
-                optio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis eos in cum voluptatibus
-                nam
-                nihil
-                nesciunt libero voluptas totam deserunt, blanditiis repellendus soluta odio facere repudiandae omnis
-                iste
-                rerum iusto, maiores harum eius? Sapiente impedit iste ut sed magni nulla odio, voluptate
-                accusantium
-                aliquid facilis, similique, sequi eaque debitis quibusdam.</p>
+            <p class="m-2 text-white text-base font-light">This comment section is built using various technologies. The
+                front-end section is made using HTML, Tailwind CSS, and JavaScript. It also includes plain CSS
+                animations customized with Tailwind. The back-end is constructed using Node.js, and Express.js.
+                Real-time communication is achieved with the help of Socket.IO. All the comments are saved and
+                synchronized using Mongo DB.
+            </p>
             <span class="mx-2 mt-2 mb-1 text-white text-lg font-medium">Write a Comment</span>
             <!-- TEXTAREA -->
             <textarea id="message" rows="4"
@@ -37,15 +31,15 @@
         </div>
         <div class="flex flex-col w-1/2 mt-10">
             <span class="mx-2 mt-2 text-white text-lg font-medium">Comments : </span>
-            <span id="typing"
-                class="tracking-wide animate-pulse mx-2 mt-2 text-yellow-400 text-sm font-medium"></span>
+            <span id="typing" class="tracking-wide animate-pulse mx-2 mt-2 text-yellow-400 text-sm font-medium"></span>
             <!-- COMMENT BOX -->
             <div id="comments-box">
 
             </div>
         </div>
     </div>
-    <footer class="flex mt-5 p-2 opacity-90 font-bold bg-slate-900 text-white w-screen items-center justify-center">
+    <footer
+        class="flex fixed bottom-0 mt-5 p-2 opacity-90 font-bold bg-slate-900 text-white w-screen items-center justify-center">
         Built with 💛 by &nbsp; <a class="hover:underline underline-offset-4" target="_blank"
             href="https://github.com/PritishMishraa">
             Pritish </a>
