@@ -62,7 +62,7 @@ socket.on('typing', (data) => {
     typing.innerHTML = `${data.username} is typing...`
     debounce(function () {
         typing.innerHTML = ''
-    }, 10000)
+    }, 1000)
 })
 
 let timerId = null
