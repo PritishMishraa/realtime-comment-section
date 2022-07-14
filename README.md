@@ -18,8 +18,8 @@ The **comment section** is built using various technologies. The front-end secti
 
 ### Features
 - does not allow the user to write comments unless they provide a proper username
-- retrives the comments from the database and displays on the feed
-- notifies other user about the user which is currently typing
+- retrieves the comments from the database and displays them on the feed
+- notifies other users about the user which is currently typing
 - updates the comment in realtime across all the sockets
 
 ### Installation
