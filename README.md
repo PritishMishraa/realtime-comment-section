@@ -3,18 +3,19 @@
 </p>
 
 <h1 align="center"> realtime-comment-section </h1>
+<div align="center">
+
+[![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
+[![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)](https://expressjs.com/)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+</div>
 <h4 align="center"> a simulation of a real-world comment section where different users can simultaneously type, read and post comments </h4>
 
 ### About
 The **comment section** is built using various technologies. The front-end section is made using **HTML, Tailwind CSS, and JavaScript**. It also includes plain **CSS animations** customized with Tailwind. The back-end is constructed using **Node.js, and Express.js**. Real-time communication is achieved with the help of **Socket.IO**. All the comments are **saved and synchronized** using **Mongo DB**.
-
-### Technologies
-
-[![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/) </br>
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) </br>
-[![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)](https://expressjs.com/) </br>
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) </br>
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) </br>
 
 ### Features
 - does not allow the user to write comments unless they provide a proper username
